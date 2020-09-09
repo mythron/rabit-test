@@ -11,7 +11,7 @@ Other criteria:
 The backend was in the focus. The database consisted of two tables with a foreign key connection.
 
 ## Method
-Until now, i worked with the Laravel framework, so basically what i made is the skeleton of Laravel.
+Until now, i was working with the Laravel framework, so basically what i made is the skeleton of Laravel (or probably even less 😅).
 
 ### Model
 The model should only contain database and data related functions. Basic CRUD, for the relevant table and maybe some specific joins or reduced datasets (ViewModel in .NET). Because i only needed to show data, the model's purpose is not that straightforward. So i made some placeholders for the other CRUD functions.\
