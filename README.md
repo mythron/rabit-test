@@ -3,10 +3,10 @@ This is a solution for the job application test sent to me by RabIT.
 
 ## The Task
 I had to create a simple web application applying MVC pattern.\
-Other criteria:\
-    Object Oriented\
-    MySQL database\
-    Minimal CSS
+Other criteria:
+- Object Oriented
+- MySQL database
+- Minimal CSS
     
 The backend was in the focus. The database consisted of two tables with a foreign key connection.
 
