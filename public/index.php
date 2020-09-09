@@ -5,11 +5,12 @@
 
 namespace App;
 
-$start = microtime(true);
-
-include_once('../boot.php');
-
 try {
+
+    $start = microtime(true);
+
+    include_once('../boot.php');
+
     if (isset($_SERVER['REQUEST_URI'])) {
         $router = new Router($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
 

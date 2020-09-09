@@ -36,3 +36,6 @@ For easier development, i made a simple logging function.
 
 ### Error handling
 The error handling is very simple, but i was not sure how complex it should have been. Normally i would use try catch blocks in the controller so i can have detailed information about the problem and can supply detailed information to the user if needed.
+
+## Configuration
+The database connection details must be added in the /database/settings.ini file. 

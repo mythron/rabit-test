@@ -1,4 +1,5 @@
 <?php
+// Basic router which recognizes the HTTP method and the target URI, then handles it with the configured handler
 
 namespace App;
 

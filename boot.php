@@ -1,4 +1,5 @@
 <?php
+// Includes all needed classes
 
 namespace App;
 
