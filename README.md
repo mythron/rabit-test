@@ -38,4 +38,6 @@ For easier development, i made a simple logging function.
 The error handling is very simple, but i was not sure how complex it should have been. Normally i would use try catch blocks in the controller so i can have detailed information about the problem and can supply detailed information to the user if needed.
 
 ## Configuration
-The database connection details must be added in the /database/settings.ini file. 
+The database connection details must be added in the /database/settings.ini file.
+If missing, the /logs folder must be created for the logging to work.
+The webserver should be pointed to the /public folder. The starting point is the index.php file.
