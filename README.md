@@ -1,5 +1,5 @@
 # RabIT Test Solution
-This a solution for the job application test sent to me by RabIT.
+This is a solution for the job application test sent to me by RabIT.
 
 ## The Task
 I had to create a simple web application applying MVC pattern. 
