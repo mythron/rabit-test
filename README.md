@@ -14,9 +14,9 @@ The backend was in the focus. The database consisted of two tables with a foreig
 Until now, i worked with the Laravel framework, so basically what i made is the skeleton of Laravel.
 
 ### Model
-The model should only contain database and data related functions. Basic CRUD, for the relevant table and maybe some specific joins or reduced datasets (ViewModel in .NET). Because i only needed to show data, the model's purpose is not that straightforward. So i made some placeholders for the other CRUD functions.
-This approach may contradict one of the requirements:
-"Model and service methods should be separated. Model here should be clear, used only for representation."
+The model should only contain database and data related functions. Basic CRUD, for the relevant table and maybe some specific joins or reduced datasets (ViewModel in .NET). Because i only needed to show data, the model's purpose is not that straightforward. So i made some placeholders for the other CRUD functions.\
+This approach may contradict one of the requirements:\
+"Model and service methods should be separated. Model here should be clear, used only for representation."\
 But i think putting the basic CRUD operations for the table is acceptable. If some more complex business logic is needed, then that can go into a different model.
 
 ### Controller
@@ -38,6 +38,6 @@ For easier development, i made a simple logging function.
 The error handling is very simple, but i was not sure how complex it should have been. Normally i would use try catch blocks in the controller so i can have detailed information about the problem and can supply detailed information to the user if needed.
 
 ## Configuration
-The database connection details must be added in the /database/settings.ini file.
-If missing, the /logs folder must be created for the logging to work.
+The database connection details must be added in the /database/settings.ini file.\
+If missing, the /logs folder must be created for the logging to work.\
 The webserver should be pointed to the /public folder. The starting point is the index.php file.
