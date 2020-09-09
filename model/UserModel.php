@@ -13,7 +13,7 @@ class UserModel
     }
 
     // Gets all record from the table
-    public function GetAll()
+    public function getAll()
     {
         $sql = "SELECT * FROM " . self::table . ";";
 
@@ -23,5 +23,15 @@ class UserModel
         $data = $statement->fetchAll();
         $conn = null;
         return $data;
+    }
+
+    // Show the data of a single user
+    public function show($userid)
+    {
+    }
+
+    // Insert a user into the DB
+    public function insert(array $userdata)
+    {
     }
 }

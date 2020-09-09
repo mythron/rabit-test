@@ -1,0 +1,29 @@
+body {
+    max-width: 768px;
+    margin: auto;
+    padding: 2vh 2vw;
+}
+
+* {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+ul.userlist {
+    max-height: 70vh;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+
+table.table.ads {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+table.table.ads th {
+    border: 1px solid black;
+}
+
+table.table.ads td {
+    border: 1px solid black;
+}

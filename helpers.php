@@ -19,3 +19,12 @@ function ez_log($str)
     error_log($str, 3, '../logs/log.txt');
     error_log("\n", 3, '../logs/log.txt');
 }
+
+function ez_error_log($str)
+{
+    if (gettype($str) != 'string') {
+        $str = var_export($str, true);
+    }
+    error_log($str, 3, '../logs/error.txt');
+    error_log("\n", 3, '../logs/error.txt');
+}

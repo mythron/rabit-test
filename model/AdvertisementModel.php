@@ -12,7 +12,8 @@ class AdvertisementModel
         $this->dbc = new DBConnection();
     }
 
-    public function GetAll()
+    // Get all rows from the table
+    public function getAll()
     {
         $sql = "SELECT * FROM " . self::table . ";";
 
@@ -25,7 +26,8 @@ class AdvertisementModel
         return $data;
     }
 
-    public function GetAllWithUsers()
+    // Get all rows with user data joined
+    public function getAllWithUsers()
     {
         $sql = "SELECT 
         a.id as 'adid',
